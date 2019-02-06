@@ -1,9 +1,9 @@
 const en = parseInt (prompt('Enter n of Fibonacci number:'));
 function fib(n) {
-  var a = 1,
+  let a = 1,
     b = 1;
   for (var i = 3; i <= n; i++) {
-    var c = a + b;
+    let c = a + b;
     a = b;
     b = c;
   }
